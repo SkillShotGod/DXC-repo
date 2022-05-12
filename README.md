@@ -1,2 +1,3 @@
 # DXC-repo
  
+Even though the UI was not asked for, making a skeleton UI probably made the process a lot easier so I went ahead and created a quick UI using Skeleton cdn. The only downside is that any random question other than the listed questions could be done a lot better using command line or simply making the user input the question. But the ease of access to the entire code is the reason I made it like that. Simply open Index.html and it should run smoothly. 

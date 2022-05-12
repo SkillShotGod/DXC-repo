@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Assistant Commands</h1>
+        <ul>
+            <li><button class="btn" data-type="greeting"> Hi, How are you?</button></li>
+            <li><button class="btn" data-type="clean-room">Clean my room. </button></li>
+            <li><button class="btn" data-type="fetch-newspaper">Fetch the newspaper. </button></li>
+            <li><button class="btn" data-type="read-shopping-list">Read my shopping list.</button></li>
+            <li><button class="btn" data-type="add-to-list">Add item to my shopping list.</button>
+            <input class="shop-item" type="email" placeholder="Item to be added"></li>
+            
+            <li><button class="btn" data-type="weather">How's the weather outside?</button></li>
+            <li><button class="btn" data-type="random"> Random other question </button>
+            <li><button class="btn button-primary" data-type="clear"> Clear Logs </button>
+        </ul>
+        
+    </div>
+    <div class="container output-container">
+        <h2 class="title">Output Log</h2>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
